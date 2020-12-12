@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express();
-const hostname = '0.0.0.0';
 const port = process.env.PORT || 9321;
+const hostname = '0.0.0.0';
 
 const routes = require('./api/routes');
 routes(app);

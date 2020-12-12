@@ -21,4 +21,4 @@ var controllers = {
      
 };
 
-module.expo=controllers;
+module.exports=controllers;
